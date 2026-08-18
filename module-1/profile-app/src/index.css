@@ -1,0 +1,70 @@
+/* General App Styling */
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header Styling */
+.profile-header {
+  background-color: #282c34;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.profile-header h2 {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #61dafb; /* React blue */
+}
+
+/* Section Styling */
+.profile-section {
+  padding: 20px 30px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.profile-section:last-child {
+  border-bottom: none;
+}
+
+.profile-section h3 {
+  color: #333;
+  margin-top: 0;
+  border-left: 4px solid #61dafb;
+  padding-left: 10px;
+}
+
+.section-content {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Skills List Styling */
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #e2f3f5;
+  color: #005662;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
