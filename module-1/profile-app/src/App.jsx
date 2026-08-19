@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 
 // Component 1: The Header (Uses props for dynamic text)
